@@ -1,0 +1,17 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f4f6; color: #222; }
+header { background: #1f2430; color: white; padding: 12px 24px; display: flex; gap: 16px; align-items: center; }
+header h1 { font-size: 1.2rem; margin: 0; margin-right: auto; }
+header button { background: none; border: none; color: white; cursor: pointer; font-size: 1rem; }
+header button.actif { text-decoration: underline; }
+main { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+.carte { background: white; border-radius: 8px; padding: 14px 18px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+button.principal { background: #c0392b; color: white; border: none; border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+input { display: block; width: 100%; padding: 8px; margin: 6px 0 12px; box-sizing: border-box; }
+form { background: white; padding: 20px; border-radius: 8px; max-width: 360px; margin: auto; }
+.erreur { color: #c0392b; }
+.succes { color: #1e8449; }
+.places { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; margin: 12px 0; }
+.places button { padding: 8px 0; border: 1px solid #aaa; border-radius: 4px; background: white; cursor: pointer; }
+.places button:disabled { background: #bbb; cursor: not-allowed; }
+table { width: 100%; border-collapse: collapse; background: white; margin-bottom: 20px; }
+th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; }
